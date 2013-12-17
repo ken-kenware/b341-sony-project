@@ -1,0 +1,283 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>mock_sony</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <!-- endbuild -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+
+        <style>
+            body {
+                padding-top: 0; 
+            }
+            .navbar-wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .carousel { 
+                
+            }
+
+            .slide1 {
+                background-color: #1F2AB2;
+                background-image: -webkit-radial-gradient(circle, 25%, 25%, #075293, #1F2AB2);
+                padding-top:1em;
+            }
+            .slide2 {
+                background-color: #03030F;
+            }
+
+            .slide3 {
+                background-color: whitesmoke;
+            }
+
+            .slide3 .carousel-caption{
+                color: black;
+                text-shadow: none;
+            }
+
+            .carousel-indicators {
+                bottom: 0px!important;
+            }
+
+            table .fa-check-circle-o {
+                color: green;
+                font-size: 1.5em;
+            }
+
+            table .fa-plus {
+                -webkit-transform: rotate(45deg);
+                color: red;
+                font-size: 1.5em;
+            }
+
+            .list-inline li {
+                max-width: 25%;
+            }
+
+            .list-inline li img {
+                max-width: 100%;
+            }
+
+            .store_list li {
+                width: 40%;
+            }
+
+            .store_list img {
+                max-width: 100%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Sony</a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#Features">Features</a></li>
+                                <li><a href="#Price">Price</a></li>
+                                <li><a href="#TradeIn">Trade-In</a></li>
+                            </ul>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:500px; width:100%">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" style="height: 100%;">
+                <div class="item active slide1">
+                    <div class="container" style="height:500px">
+                        <img src="images/PS4S.png" style="max-width:100%">
+                        <div class="carousel-caption">
+                            <h1>The New PlayStation 4-S</h1>
+                            <p>Sony is proud to announce the newest addition to the PlayStation family. The PlayStation 4-S.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item slide2">
+                    <div class="" style="height:500px">
+                        <img src="images/nuclear-mushroom-cloud.jpeg" style="width:100%;height:100%">
+                        <div class="carousel-caption">
+                            <h1>More Bang for Your Buck</h1>
+                            <p>Now you can enjoy PlayStation quality at lower prices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item slide3">
+                    <div class="container" style="height: 500px">
+                        <div class="carousel-caption">
+                            <img src="images/recycle_cash_clipped.png" style="max-width:50%;">
+                            <h1>Upgrade and Save!</h1>
+                            <p>For a limited time, PlayStation will give you a discount towards a PlayStation 4-S in exchange for your current, or old gaming systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+
+        <div class="container">
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette" id="Price">
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">Same Quality <span class="text-muted">Cheaper Price</span></h2>
+                    <p class="lead">The new PlayStation 4-S offers the same features that you would expect from a gaming system at a significantly lower price.</p>
+                </div>
+                <div class="col-md-7">
+                    <table class="table">
+                        <thead>
+                            <th></th><th>PS4-S</th><th>XBox-One</th>
+                            <!-- <th>Wii-U</th> -->
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Online Gaming</td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <!-- <td><i class="fa fa-check-circle-o"></i></td> -->
+                            </tr>
+                            <tr>
+                                <td>1080p</td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <!-- <td><i class="fa fa-check-circle-o"></i></td> -->
+                            </tr>
+                            <tr>
+                                <td>Dolby 7.1</td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <!-- <td><i class="fa fa-check-circle-o"></i></td> -->
+                            </tr>
+                            <tr>
+                                <td>Cloud Saving</td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <!-- <td><i class="fa fa-plus"></i></td> -->
+                            </tr>
+                            <tr>
+                                <td>Lifetime Warranty</td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <td><i class="fa fa-plus"></i></td>
+                                <!-- <td><i class="fa fa-plus"></i></td> -->
+                            </tr>
+                            <tr>
+                                <td>PlayStation Exclusives</td>
+                                <td><i class="fa fa-check-circle-o"></i></td>
+                                <td><i class="fa fa-plus"></i></td>
+                                <!-- <td><i class="fa fa-plus"></i></td> -->
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td><span class="text-success" style="font-weight: bold">$299</span></td>
+                                <td><span class="text-danger" style="font-weight: bold">$629</span></td>
+                                <!-- <td><span class="text-danger" style="font-weight: bold">$299</span></td> -->
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="Calculator">
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">How Much Will it <span class="text-muted">Save You?</span></h2>
+                    <p class="lead">With the amount you'll save on a PS4-S, you'll be able to purchase <span class="muted">six</span> games.</p>
+                </div>
+                <div class="col-md-7">
+                    <ul class="list-inline">
+                        <li><img src="images/killone-box.jpg"></li>
+                        <li><img src="images/killone-box.jpg"></li>
+                        <li><img src="images/killone-box.jpg"></li>
+                        <li><img src="images/killone-box.jpg"></li>
+                        <li><img src="images/killone-box.jpg"></li>
+                        <li><img src="images/killone-box.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette" id="TradeIn">
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">Find One <span class="text-muted">Near You!</span></h2>
+                    <p class="lead">For a limited time, PlayStation will accept your old XBox, Nintendo, or even PS systems towards the purchase of a new PS-4. Find a location near you.</p>
+                </div>
+                <div class="col-md-7">
+                    <ul class="list-unstyled store_list">
+                        <li><img src="images/best_buy_logo.png"></li>
+                        <li><img src="images/walmart_logo.png"></li>
+                        <li><img src="images/target_logo.png" style="height: 10em;"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
